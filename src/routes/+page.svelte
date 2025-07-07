@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Understand faster. Write better."
+	subtitle="All your research, in one place."
+	imageSrc="/generated/image-a-diverse-group-of-researchers-engaged-i.webp"
+	centered={true}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by leading research institutions"
+	logoUrls={[
+		'https://logo.clearbit.com/caltech.edu',
+		'https://logo.clearbit.com/stanford.edu',
+		'https://logo.clearbit.com/gsk.com',
+		'https://logo.clearbit.com/biogen.com'
+	]}
+/>
 
 <Summary
 	generating

@@ -3,7 +3,7 @@
   import type { NavItem } from '$lib/navigation';
   // Components
   import { NavigationMenu } from 'bits-ui';
-  import IconChevronDown from '~icons/lucide/chevron-down';
+  import IconChevronDown from 'lucide-svelte/icons/chevron-down';
 
   // Props
   let { item }: { item: NavItem } = $props();

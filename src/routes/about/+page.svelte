@@ -48,7 +48,6 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
 	subtitle="Your partners in innovation."
@@ -105,3 +104,4 @@
 	subtitle="Let's create something amazing"
 	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
 />
+

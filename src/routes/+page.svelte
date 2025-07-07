@@ -7,6 +7,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
 <Hero
@@ -26,65 +27,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Anara is an AI-powered platform that helps researchers quickly understand papers, books, and audio content. We streamline the entire research workflow by helping you organize findings and write well-cited documents."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Astrid Vanmeer",
+			position: "PhD Student",
+			company: "Behavioral Neuroscience",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"Anara cut my literature review time from 6 weeks to 4 days. I can now read through 50 papers and extract key findings in hours, not weeks. This saved me an entire semester of research time.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-female-phd-student-researcher-is-deepl.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Caspian Thorpe",
+			position: "Medical Researcher",
+			company: "Clinical Trials Division",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"Anara's referenced responses prevented citation errors that could have cost us our $2.3M grant. The platform's accuracy verification saved our research credibility and prevented potential publication retractions.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-male-medical-researcher-dressed-in-a-p.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Indira Castellanos",
+			position: "Research Team Lead",
+			company: "Corporate Innovation",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"We eliminated $85K in external research consultant fees by using Anara. Our team now handles complex literature reviews internally, and collaborative features reduced project timelines by 40%.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-female-corporate-research-team-leader-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Powerful features for researchers"
+	subtitle="Everything you need to understand, organize, and write better research"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "AI assistant for any content",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Upload PDFs, books, audio, and videos to get instant answers with referenced sources you can trust."
 		},
 		{
-			title: "Data Analysis",
+			title: "Always shows sources",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Every AI response includes citations and references, so you can verify accuracy and trace back to original content."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Multi-format support",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Works with PDFs, images, handwritten notes, audio recordings, YouTube videos, and over 90 languages."
+		},
+		{
+			title: "Collaborative research",
+			description:
+				"Share documents, chat conversations, and work together in real-time with your research team."
+		},
+		{
+			title: "AI-powered writing",
+			description:
+				"Get help with citations, autocomplete sentences, and improve your writing with AI editing tools."
+		},
+		{
+			title: "Enterprise ready",
+			description:
+				"HIPAA compliant with single sign-on, advanced admin controls, and priority support for organizations."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+
+<UseCases
+	title="Use Cases"
+	subtitle="Real-world applications for research professionals"
+	useCases={[
+		{
+			title: "Accelerate academic research",
+			description: "PhD students and academics can reduce literature review time from weeks to days. Upload papers, get instant insights, and maintain perfect citation accuracy throughout your research process.",
+			image: "/generated/image-a-group-of-phd-students-gathered-around-.webp",
+			link: {
+				href: "/use-cases/academic-research",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Streamline medical research",
+			description: "Medical professionals can analyze clinical papers efficiently while ensuring citation accuracy. Prevent costly publication errors and maintain research credibility with referenced AI responses.",
+			image: "/generated/image-a-team-of-medical-researchers-in-a-brigh.webp",
+			link: {
+				href: "/use-cases/medical-research",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Enhance corporate research",
+			description: "Replace expensive external research consultants with collaborative AI-powered tools. Teams can handle complex literature reviews internally and reduce project timelines by 40%.",
+			image: "/generated/image-a-corporate-research-team-seated-in-a-mo.webp",
+			link: {
+				href: "/use-cases/corporate-research",
+				label: "Learn more"
+			}
+		}
+	]}
+/>
+
+<AboutTeaser />
+<CallToAction />

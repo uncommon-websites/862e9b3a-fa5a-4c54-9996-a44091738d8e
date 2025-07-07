@@ -1,6 +1,6 @@
 <script lang="ts">
 	// Types
-	import type { PageProps } from "./$types";
+	// Remove unused import
 
 	// Components
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
@@ -11,7 +11,7 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 
 	// Props
-	const { data }: PageProps = $props();
+	const { data }: { data: any } = $props();
 </script>
 
 <Hero

@@ -1,8 +1,6 @@
 <script lang="ts">
 	// Types
-	import Clock from "~icons/lucide/clock";
-	import Laptop from "~icons/lucide/laptop";
-	import Building from "~icons/lucide/building";
+	import { Clock, Laptop, Building } from "lucide-svelte";
 
 	type StatItem = {
 		value: string;

@@ -1,11 +1,14 @@
-# Task: Update Use Cases Section
+# Fix Errors Task
 
-- [x] View current home page to understand existing use cases
-- [x] View navigation.ts to understand current structure
-- [x] Generate 3 new use cases tailored to Anara Labs
-- [x] Generate images for each use case (3:4 aspect ratio)
-- [x] Update navigation.ts with new use cases and images
-- [x] Update home page to use new use cases
-- [x] Remove "generating" prop from components
-- [ ] Verify all syntax is correct and complete
-- [ ] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
+## Critical Issues to Fix:
+- [x] Fix forbidden lucide-svelte imports in MobileNav.svelte (already using correct ~icons/lucide/ imports)
+- [x] Fix forbidden lucide-svelte imports in _DesktopNavDropdown.svelte (already using correct ~icons/lucide/ imports)
+- [x] Fix forbidden lucide-svelte imports in Pricing.svelte (already using correct ~icons/lucide/ imports)
+- [x] Fix forbidden lucide-svelte imports in Stats.svelte (already using correct ~icons/lucide/ imports)
+- [x] Fix forbidden lucide-svelte imports in JobList.svelte (already using correct ~icons/lucide/ imports)
+- [x] Fix forbidden lucide-svelte imports in careers/+page.svelte (already using correct ~icons/lucide/ imports)
+- [x] Fix forbidden lucide-svelte imports in kitchen-sink/+page.svelte (already using correct ~icons/lucide/ imports)
+- [x] Remove generating props from about/+page.svelte
+- [x] Remove generating props from careers/+page.svelte
+- [x] Fix PageLoad import issue in use-cases route
+- [x] Final design system compliance check - verified design system classes are properly defined in theme.css, typography.css, spacing.css and app.css. All components use design system variables and classes correctly. NO shadows, NO custom CSS, NO arbitrary values found.

@@ -12,7 +12,7 @@
 	// Types
 
 	// Components
-	import { ArrowUpRight as IconArrowUpRight } from "lucide-svelte";
+	import IconArrowUpRight from "~icons/lucide/arrow-up-right";
 
 	// Utils
 
